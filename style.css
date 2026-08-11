@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+  color: #111827;
+}
+
+header {
+  background:
+    linear-gradient(
+      135deg,
+      #07152f,
+      #155eef
+    );
+
+  color: white;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: auto;
+
+  padding: 14px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.logo {
+  margin-right: auto;
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #facc15;
+}
+
+.navbar button {
+  border: 0;
+
+  background: #101b31;
+
+  color: white;
+
+  padding: 12px;
+
+  border-radius: 12px;
+
+  font-size: 18px;
+}
+
+#app {
+  max-width: 1100px;
+
+  margin: auto;
+
+  padding: 20px;
+}
+
+.hero {
+  background:
+    linear-gradient(
+      135deg,
+      #111827,
+      #2563eb,
+      #7c3aed
+    );
+
+  color: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(250px, 1fr)
+    );
+
+  gap: 18px;
+}
+
+.card,
+.panel {
+  background: white;
+
+  border-radius: 18px;
+
+  padding: 18px;
+
+  box-shadow:
+    0 5px 20px
+    rgba(0,0,0,.08);
+}
+
+.btn {
+  border: 0;
+
+  border-radius: 11px;
+
+  padding: 13px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.price {
+  color: #1d4ed8;
+
+  font-size: 21px;
+
+  font-weight: bold;
+
+  margin: 10px 0;
+}
+
+.input,
+textarea,
+select {
+  width: 100%;
+
+  padding: 13px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 10px;
+
+  margin-top: 8px;
+}
+
+.modal {
+  display: none;
+
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0,0,0,.65);
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 15px;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-box {
+  background: white;
+
+  width: 100%;
+
+  max-width: 600px;
+
+  max-height: 90vh;
+
+  overflow: auto;
+
+  border-radius: 20px;
+
+  padding: 20px;
+}
+
+.close {
+  float: right;
+
+  border: 0;
+
+  background: #eee;
+
+  padding: 8px;
+
+  border-radius: 8px;
+}
+
+footer {
+  background: #111827;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 30px;
+
+  margin-top: 30px;
+}
