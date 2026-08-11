@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>JB BY R - Marketplace FF</title>
+
+  <link
+    rel="stylesheet"
+    href="/style.css"
+  >
+</head>
+
+<body>
+
+<header>
+
+  <div class="navbar">
+
+    <div class="logo">
+      JB <span>BY R</span>
+    </div>
+
+    <button onclick="showHome()">
+      🏠
+    </button>
+
+    <button onclick="showOrders()">
+      🧾
+    </button>
+
+    <button onclick="showProfile()">
+      👤
+    </button>
+
+  </div>
+
+</header>
+
+
+<main id="app"></main>
+
+
+<footer>
+
+  <h3>JB BY R</h3>
+
+  <p>
+    Marketplace Akun Free Fire
+  </p>
+
+</footer>
+
+
+<div
+  id="modal"
+  class="modal"
+>
+
+  <div class="modal-box">
+
+    <button
+      class="close"
+      onclick="closeModal()"
+    >
+      ✕
+    </button>
+
+    <div id="modalContent"></div>
+
+  </div>
+
+</div>
+
+
+<script src="/app.js"></script>
+
+</body>
+</html>
